@@ -1,0 +1,37 @@
+/node_modules
+/.history
+/.husky
+
+# Client
+# dependencies
+web-client/node_modules
+web-client/.pnp.js
+
+# testing
+web-client/coverage
+
+# production
+web-client/build
+
+# misc
+web-client/.DS_Store
+
+web-client/npm-debug.log*
+web-client/yarn-debug.log*
+web-client/yarn-error.log*
+
+# App
+app/node_modules/
+app/.expo/
+app/dist/
+app/npm-debug.*
+app/*.jks
+app/*.p8
+app/*.p12
+app/*.key
+app/*.mobileprovision
+app/*.orig.*
+app/web-build/
+
+# macOS
+app/.DS_Store
